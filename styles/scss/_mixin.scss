@@ -1,0 +1,18 @@
+@mixin flex-box($direction: row, $space: center) {
+    display: flex;
+    justify-content: $space;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+@mixin style-user-count() {
+    h2 {
+        color: $text-medium-color;
+        font-weight: $font-medium;
+        font-size: 25px;
+    }
+    p {
+        color: $text-regular-color;
+        font-size: 20px;
+    }
+}
